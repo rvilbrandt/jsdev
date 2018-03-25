@@ -1,0 +1,29 @@
+{
+  "name": "eslint-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+    "react-hot-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.1.0",
+    "react-error-overlay": "^4.0.0",
+    "webpack": "^4.2.0",
+    "webpack-serve": "^0.2.0"
+  },
+  "scripts": {
+    "start:dev": "webpack-serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
